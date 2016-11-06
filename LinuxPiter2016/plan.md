@@ -17,6 +17,7 @@
 * Vote for LISP, make programming great again!
 * Homoiconicity, macros, immutability, lambdas
 * Golang is not an option, but... (statically linked file is a must)
+* Maybe I should elaborate WHY Golang is not an option
 * Common LISP (statically linked file over 30Mbs)
 * Scheme (designed to be minimalist and definitely is)
 * So, no boots? (A puss-in-boots image from Shrek)
