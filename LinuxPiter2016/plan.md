@@ -22,7 +22,7 @@
 * Scheme (designed to be minimalist and definitely is)
 * So, no boots? (A puss-in-boots image from Shrek)
 * Nim!
-* Nim: the good parts
+* Nim: the good parts (homoiconicity, optional immutability, C as an IR, per thread GC, statically linked file < 1Mb)
 * The project repo
 * The project interface (should be quite ugly)
 * The TODO list
