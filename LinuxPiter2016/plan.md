@@ -26,6 +26,6 @@
 * The project repo
 * The project interface (should be quite ugly)
 * The TODO list
-* Consequences
+* Conclusions
 * Questions, if any
 * Farewell and thanks for all the fish
