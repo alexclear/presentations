@@ -1,5 +1,6 @@
 * Hello, my name is Sasha...
 * Performance optimization is not that hard (how to draw an owl)
+* A word on comfort zone? (This presentation is in LaTeX)
 * Fast-forward to late 2016... (Brendan Gregg declared Linux DTrace-complete)
 * Okay, Linux than... so what am I going to present?
 * A web service for collecting and visualizing flamegraphs
@@ -13,7 +14,7 @@
 * The problem: off-CPU operations are off the CPU, so how to account them?
 * The solution is a bit ugly...
 * Okay, back to the web service - we need a language
-* A hicker needs decent boots
+* A hicker needs decent boots (a picture of Asolo boots)
 * Vote for LISP, make programming great again!
 * Homoiconicity, macros, immutability, lambdas
 * Golang is not an option, but... (statically linked file is a must)
@@ -25,7 +26,7 @@
 * Nim: the good parts (homoiconicity, optional immutability, C as an IR, per thread GC, statically linked file < 1Mb)
 * The project repo
 * The project interface (should be quite ugly)
-* The TODO list
+* The TODO list (a link to)
 * Conclusions
 * Questions, if any
 * Farewell and thanks for all the fish
