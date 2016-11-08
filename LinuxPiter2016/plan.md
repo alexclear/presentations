@@ -24,6 +24,7 @@
 * So, no boots? (A puss-in-boots image from Shrek)
 * Nim!
 * Nim: the good parts (homoiconicity, optional immutability, C as an IR, per thread GC, statically linked file < 1Mb)
+* Nim: the bad parts (concurrency is a bit tricky, don't forget to open a channel, creating new threads are a bit unclear)
 * The project repo
 * The project interface (should be quite ugly)
 * The TODO list (a link to)
