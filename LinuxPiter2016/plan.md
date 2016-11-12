@@ -1,11 +1,11 @@
-* Hello, my name is Sasha...
-* Performance optimization is not that hard (how to draw an owl)
-* A word on comfort zone? (This presentation is in LaTeX)
-* Fast-forward to late 2016... (Brendan Gregg declared Linux DTrace-complete)
-* Okay, Linux than... so what am I going to present?
-* A web service for collecting and visualizing flamegraphs
+* _Hello, my name is Sasha..._
+* _Performance optimization is not that hard (how to draw an owl)_
+* _A word on comfort zone? (This presentation is in LaTeX)_
+* _Fast-forward to late 2016... (Brendan Gregg declared Linux DTrace-complete)_
+* _Okay, Linux than... so what am I going to present?_
+* _A web service for collecting and visualizing flamegraphs_
 * Flamegraphs? (Do you remember Linux Piter 2015? Have you ever heard of Brendan Gregg?)
-* Collecting flamegraphs in 2016 is extremely easy (how to draw an owl)
+* _Collecting flamegraphs in 2016 is extremely easy (how to draw an owl)_
 * On-CPU flamegraphs (the easy part)
 * perf events
 * BPF stack tracing capabilities
@@ -15,19 +15,19 @@
 * The solution is a bit ugly...
 * Okay, back to the web service - we need a language
 * A hicker needs decent boots (a picture of Asolo boots)
-* Vote for LISP, make programming great again!
-* Homoiconicity, macros, immutability, lambdas
-* Golang is not an option, but... (statically linked file is a must)
-* Maybe I should elaborate WHY Golang is not an option
-* Common LISP (statically linked file over 30Mbs)
-* Scheme (designed to be minimalist and definitely is)
-* So, no boots? (A puss-in-boots image from Shrek)
-* Nim!
-* Nim: the good parts (static and strong typing, homoiconicity, optional immutability, C as an IR, per thread GC, statically linked file < 1Mb)
+* _Vote for LISP, make programming great again!_
+* _Homoiconicity, macros, immutability, lambdas_
+* _Golang is not an option, but... (statically linked file is a must)_
+* _Maybe I should elaborate WHY Golang is not an option_
+* _Common LISP (statically linked file over 30Mbs)_
+* _Scheme (designed to be minimalist and definitely is)_
+* _So, no boots? (A puss-in-boots image from Shrek)_
+* _Nim!_
+* _Nim: the good parts (static and strong typing, homoiconicity, optional immutability, C as an IR, per thread GC, statically linked file < 1Mb)_
 * Nim: the bad parts (concurrency is a bit tricky, don't forget to open a channel, creating new threads are a bit unclear)
 * The project repo
 * The project interface (should be quite ugly)
 * The TODO list (a link to)
-* Conclusions
-* Questions, if any
-* Farewell and thanks for all the fish
+* _Conclusions_
+* _Questions, if any_
+* _Farewell and thanks for all the fish_
