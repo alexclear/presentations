@@ -12,6 +12,7 @@
 \usepackage{setspace}
 \usepackage{tikz}
 \usepackage{csquotes}
+\usepackage[export]{adjustbox}
 %\usepackage[texcoord,grid,gridunit=mm,gridcolor=red!10,subgridcolor=green!10]{eso-pic}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{Trebuchet MS}
@@ -20,6 +21,7 @@
 \newfontfamily{\cyrillicfont}{Trebuchet MS}
 \newfontfamily{\cyrillicfontsf}{Trebuchet MS}
 \newfontfamily{\cyrillicfonttt}{Trebuchet MS}
+\newfontface\lserif{Microsoft Sans Serif}
 
 \newcommand\Bigfont{\fontsize{22}{22}\selectfont}
 \newcommand\Authorfont{\fontsize{17}{17}\selectfont}
@@ -103,11 +105,55 @@
 \begin{frame}{\ \ \ Слово \enquote{современные}}
 \setstretch{1.2}
 \begin{textblock*}{\framewidth}(0.8cm,1.5cm) % {block width} (coords)
-Что изображено на картинке?
+Что изображено на картинке?\\
+{\small (Мы будем говорить о вещах, придуманных 30 и более лет назад)}
 \begin{minipage}{\textwidth}
   \centering
   \includegraphics[height=5.5cm]{img/cassette}
 \end{minipage}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Немного истории}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth}(0.8cm,1.5cm) % {block width} (coords)
+Носитель информации 30 лет назад\\
+{\small (Емкость примерно 200 килобайт)}
+\begin{minipage}{\textwidth}
+  \centering
+  \includegraphics[height=5.5cm]{img/cassette}
+\end{minipage}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ ALGOL-60 и далее}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth}(0.8cm,1.5cm) % {block width} (coords)
+  \begin{columns}[onlytextwidth,t]
+    \begin{column}{0.5\textwidth}
+      \centering
+      \includegraphics[height=6.8cm,valign=t]{img/algorithm}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+    Структурное и процедурное программирование
+    \end{column}
+  \end{columns}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Корень всех зол}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.5cm}(1.2cm,1.5cm) % {block width} (coords)
+  \begin{columns}[onlytextwidth,t]
+    \begin{column}{0.5\textwidth}
+      Как C-программист под DSP пишет на C{\lserif\#}?\\
+      {\small В C{\lserif\#} нет goto, но это не беда!}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \centering
+      \includegraphics[height=6.8cm,valign=t]{img/spaghetti.png}
+    \end{column}
+  \end{columns}
 \end{textblock*}
 \end{frame}
 
