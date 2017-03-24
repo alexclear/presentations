@@ -10,6 +10,9 @@
 * General use languages: Python as a lingua franca
 * Parts of a good modern language: (optional) static typing
 * PHP 7, and mypy in Python
+* Generalization of static typing: static code analyzers
+* Rubocop, perlcritic, Pylama and others
+* A gap between academia and industry
 * Parts of a good modern language: package/vendoring manager
 * Parts of a good modern language: metaprogramming, immutability, null-safety
 * Concurrency is hard: syncing in Java
