@@ -12,8 +12,16 @@
 * PHP 7, and mypy in Python
 * Parts of a good modern language: package/vendoring manager
 * Parts of a good modern language: metaprogramming, immutability, null-safety
+* Concurrency is hard: syncing in Java
+* Concurrency is hard: a story of Linux threads
+* Concurrency and parallelism: GIL
+* Concurrency is hard: async processing and epoll wrappers
+* Concurrency is hard: N:M threads
+* Modern VMs: JVM and BEAM
+* Why BEAM rocks and JVM does not
 * Use libraries, not frameworks!
 * Need for speed: JIT compilers
+* Need for speed: Truffle
 * Need for speed: zero-cost abstractions
 * FRP and Elm, zero-cost abstractions again
 * Haskell (my VAZ2101 experience)
