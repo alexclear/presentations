@@ -11,6 +11,7 @@
 \usepackage{hyperref}
 \usepackage{setspace}
 \usepackage{tikz}
+\usepackage{csquotes}
 %\usepackage[texcoord,grid,gridunit=mm,gridcolor=red!10,subgridcolor=green!10]{eso-pic}
 \defaultfontfeatures{Ligatures=TeX}
 \setmainfont{Trebuchet MS}
@@ -99,6 +100,17 @@
 \end{textblock*}
 \end{frame}
 
+\begin{frame}{\ \ \ Слово \enquote{современные}}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth}(0.8cm,1.5cm) % {block width} (coords)
+Что изображено на картинке?
+\begin{minipage}{\textwidth}
+  \centering
+  \includegraphics[height=5.5cm]{img/cassette}
+\end{minipage}
+\end{textblock*}
+\end{frame}
+
 %\begin{frame}{Performance optimization is not that hard}
 %\setstretch{1.2}
 %\begin{textblock*}{\framewidth-0.8cm}(0.0cm,1.5cm) % {block width} (coords)
@@ -117,17 +129,6 @@
 %  \item It's crucial to be out of it to learn something new
 %  \item So I made this presentation in TeX
 %\end{itemize}
-%\end{textblock*}
-%\end{frame}
-
-%\begin{frame}{Fast-forward to 2016}
-%\setstretch{1.2}
-%\begin{textblock*}{\framewidth-0.8cm}(0.7cm,1.5cm) % {block width} (coords)
-%Brendan Gregg declared Linux DTrace-complete!
-%\begin{minipage}{\textwidth}
-%  \centering
-%  \includegraphics[height=6.6cm]{img/2016.png}
-%\end{minipage}
 %\end{textblock*}
 %\end{frame}
 
