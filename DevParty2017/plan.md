@@ -1,8 +1,8 @@
-* Hello, my name is Sasha...
-* A word "modern" is probably not in the right place
-* Let's discuss history a bit (a picture of a cassette)
-* Procedural programming
-* How a DSP programmer writes in C#
+* _Hello, my name is Sasha..._
+* _A word "modern" is probably not in the right place_
+* _Let's discuss history a bit (a picture of a cassette)_
+* _Procedural programming_
+* _How a DSP programmer writes in C#_
 * How a C++ programmer writes in Java
 * Bizzare optimizations: need to find a good case
 * A need for OOP
@@ -31,6 +31,6 @@
 * Need for speed: zero-cost abstractions
 * FRP and Elm, zero-cost abstractions again
 * Haskell (my VAZ2101 experience)
-* Conclusions
-* Questions, if any
-* Farewell and thanks for all the fish
+* _Conclusions_
+* _Questions, if any_
+* _Farewell and thanks for all the fish_
