@@ -30,7 +30,7 @@
 * Need for speed: Truffle
 * Need for speed: zero-cost abstractions
 * FRP and Elm, zero-cost abstractions again
-* Haskell (my VAZ2101 experience)
+* _Haskell (my VAZ2101 experience)_
 * _Conclusions_
 * _Questions, if any_
 * _Farewell and thanks for all the fish_
