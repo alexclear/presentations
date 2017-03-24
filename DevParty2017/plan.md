@@ -24,6 +24,7 @@
 * Why BEAM rocks and JVM does not
 * My quest for the next programming language
 * A notion of a hyperpolyglot (link to http://hyperpolyglot.org)
+* Golang as an ugly duckling
 * Use libraries, not frameworks!
 * Need for speed: JIT compilers
 * Need for speed: Truffle
