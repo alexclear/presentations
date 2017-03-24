@@ -8,10 +8,13 @@
 * A need for OOP
 * The object paradigm has failed
 * General use languages: Python as a lingua franca
+* Parts of a good modern language: (optional) static typing
+* PHP 7, and mypy in Python
 * Parts of a good modern language: package/vendoring manager
 * Parts of a good modern language: metaprogramming, immutability, null-safety
-* Parts of a good modern language: (optional) static typing
 * Use libraries, not frameworks!
+* Need for speed: JIT compilers
+* Need for speed: zero-cost abstractions
 * FRP and Elm, zero-cost abstractions again
 * Haskell (my VAZ2101 experience)
 * Conclusions
