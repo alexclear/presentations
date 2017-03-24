@@ -22,6 +22,8 @@
 * Concurrency is hard: N:M threads
 * Modern VMs: JVM and BEAM
 * Why BEAM rocks and JVM does not
+* My quest for the next programming language
+* A notion of a hyperpolyglot (link to http://hyperpolyglot.org)
 * Use libraries, not frameworks!
 * Need for speed: JIT compilers
 * Need for speed: Truffle
