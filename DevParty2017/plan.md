@@ -6,12 +6,12 @@
 * Bizzare optimizations: need to find a good case
 * _A need for OOP_
 * How a C++ programmer writes in Java
-* The object paradigm has failed
-* General use languages: Python as a lingua franca
-* Parts of a good modern language: (optional) static typing
-* PHP 7, and mypy in Python
-* Generalization of static typing: static code analyzers
-* Rubocop, perlcritic, Pylama and others
+* _The object paradigm has failed_
+* _General use languages: Python as a lingua franca_
+* _Parts of a good modern language: (optional) static typing_
+* _PHP 7, and mypy in Python_
+* _Generalization of static typing: static code analyzers_
+* _Rubocop, perlcritic, Pylama and others_
 * A gap between academia and industry
 * Parts of a good modern language: package/vendoring manager
 * Parts of a good modern language: metaprogramming, immutability, null-safety
