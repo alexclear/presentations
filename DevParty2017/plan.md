@@ -12,9 +12,9 @@
 * _PHP 7, and mypy in Python_
 * _Generalization of static typing: static code analyzers_
 * _Rubocop, perlcritic, Pylama and others_
-* A gap between academia and industry
-* Parts of a good modern language: package/vendoring manager
-* Parts of a good modern language: metaprogramming, immutability, null-safety
+* _A gap between academia and industry_
+* _Parts of a good modern language: package/vendoring manager_
+* _Parts of a good modern language: metaprogramming, immutability, null-safety_
 * Concurrency is hard: syncing in Java
 * Concurrency is hard: a story of Linux threads
 * Concurrency and parallelism: GIL
@@ -22,7 +22,7 @@
 * Concurrency is hard: N:M threads
 * Modern VMs: JVM and BEAM
 * Why BEAM rocks and JVM does not
-* My quest for the next programming language
+* _My quest for the next programming language_
 * A notion of a hyperpolyglot (link to http://hyperpolyglot.org)
 * Golang as an ugly duckling
 * Use libraries, not frameworks!
