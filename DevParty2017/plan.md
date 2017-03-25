@@ -3,9 +3,9 @@
 * _Let's discuss history a bit (a picture of a cassette)_
 * _Procedural programming_
 * _How a DSP programmer writes in C#_
-* How a C++ programmer writes in Java
 * Bizzare optimizations: need to find a good case
-* A need for OOP
+* _A need for OOP_
+* How a C++ programmer writes in Java
 * The object paradigm has failed
 * General use languages: Python as a lingua franca
 * Parts of a good modern language: (optional) static typing
