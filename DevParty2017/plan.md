@@ -20,12 +20,12 @@
 * Concurrency and parallelism: GIL
 * Concurrency is hard: async processing and epoll wrappers
 * Concurrency is hard: N:M threads
-* Modern VMs: JVM and BEAM
-* Why BEAM rocks and JVM does not
+* _Modern VMs: JVM and BEAM_
+* _Why BEAM rocks and JVM does not_
 * _My quest for the next programming language_
-* A notion of a hyperpolyglot (link to http://hyperpolyglot.org)
-* Golang as an ugly duckling
-* Use libraries, not frameworks!
+* _A notion of a hyperpolyglot (link to http://hyperpolyglot.org)_
+* _Golang as an ugly duckling_
+* _Use libraries, not frameworks!_
 * Need for speed: JIT compilers
 * Need for speed: Truffle
 * Need for speed: zero-cost abstractions
