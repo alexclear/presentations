@@ -1,0 +1,175 @@
+\documentclass[xetex,18pt,aspectratio=43]{beamer}
+
+\usepackage{caption}
+\usepackage[percent]{overpic}
+\usepackage{xecyr}
+\usepackage{xunicode}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{fontspec}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{csquotes}
+\usepackage[export]{adjustbox}
+\usepackage[normalem]{ulem}
+%\usepackage{cancel}
+%\usepackage[texcoord,grid,gridunit=mm,gridcolor=red!10,subgridcolor=green!10]{eso-pic}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Trebuchet MS}
+\usepackage{polyglossia}
+\setdefaultlanguage[spelling=modern]{russian}
+\newfontfamily{\cyrillicfont}{Trebuchet MS}
+\newfontfamily{\cyrillicfontsf}{Trebuchet MS}
+\newfontfamily{\cyrillicfonttt}{Trebuchet MS}
+\newfontface\lserif{Microsoft Sans Serif}
+
+\newcommand\Bigfont{\fontsize{20}{20}\selectfont}
+\newcommand\Authorfont{\fontsize{17}{17}\selectfont}
+\newcommand\Orgfont{\fontsize{13}{13}\selectfont}
+
+\mode<presentation>
+{
+  %\usetheme{Boadilla}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  %\usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+  \setbeamertemplate{itemize items}[circle]
+  \setbeamerfont{title}{series=\bfseries,parent=structure}
+  \setbeamerfont{frametitle}{size=\huge}
+} 
+
+\makeatother
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.35\paperwidth,ht=2.5ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.65\paperwidth,ht=2.5ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hfill
+    \insertframenumber{} / \inserttotalframenumber\hspace*{-8ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatletter
+
+\title[Жизненный цикл микросервисного приложения в Kubernetes]{}
+\author[Александр Чистяков, vdsina.ru]{}
+\date{}
+
+\begin{document}
+
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    %\setbeamertemplate{background}[grid][step=10]
+    \setbeamertemplate{background}{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{img/firstslide.png}}
+    \begin{frame}[plain]
+      \setstretch{1.2}
+      \begin{textblock*}{\framewidth}(0.95cm,3.0cm) % {block width} (coords)
+        \Bigfont
+          \begin{center}
+          Жизненный цикл микросервисного приложения в Kubernetes
+          \end{center}
+      \end{textblock*}
+      \begin{textblock*}{\framewidth}(0.95cm,5.8cm) % {block width} (coords)
+        \Authorfont
+          \begin{center}
+          Александр Чистяков
+          \end{center}
+      \end{textblock*}
+      \begin{textblock*}{\framewidth}(0.95cm,6.9cm) % {block width} (coords)
+        \Orgfont
+          \begin{center}
+          \href{https://vdsina.ru}{\color{blue}vdsina.ru}
+          \end{center}
+      \end{textblock*}
+     \end{frame}
+}
+
+
+\begin{Large}
+
+\begin{frame}{\ \ \ Как все работает}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Собрали
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Как все работает}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Собрали
+  \item Запустили
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Как все работает}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Собрали
+  \item Запустили
+  \item Все заработало
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Как все работает}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Собрали
+  \item Запустили
+  \item Все заработало
+  \item Что-то сломалось
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Как все работает}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Собрали
+  \item Запустили
+  \item Все заработало
+  \item Что-то сломалось
+  \item Все сломалось
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ Выводы}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item Ничто не лучше
+  \item Знание - сила
+  \item Берегись поворота башни!
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\begin{frame}{\ \ \ That's all, folks!}
+\setstretch{1.2}
+\begin{textblock*}{\framewidth-0.8cm}(0.5cm,1.5cm)
+\begin{itemize}
+  \item \href{mailto:alexclear@gmail.com}{\color{blue}{alexclear@gmail.com}}
+  \item \href{https://telegram.me/lhommequipleure}{\color{blue}{https://telegram.me/lhommequipleure}}
+  \item \href{https://telegram.me/demeliorator\_pod}{\color{blue}{https://telegram.me/demeliorator\_pod}}
+\end{itemize}
+\end{textblock*}
+\end{frame}
+
+\end{Large}
+
+\end{document}
