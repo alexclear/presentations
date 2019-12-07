@@ -35,6 +35,11 @@
 \definecolor{darkorange}{rgb}{1.0, 0.55, 0.0}
 \definecolor{darkorchid}{rgb}{0.6, 0.2, 0.8}
 \definecolor{darkpink}{rgb}{0.91, 0.33, 0.5}
+\definecolor{bgcolor}{RGB}{23, 33, 43}
+\definecolor{fgcolor}{RGB}{127, 145, 164}
+\definecolor{lightfgcolor}{RGB}{187, 205, 224}
+\definecolor{titlecolor}{RGB}{130, 179, 219}
+\definecolor{linkcolor}{RGB}{65, 120, 253}
 
 \mode<presentation>
 {
@@ -74,6 +79,10 @@
     \setbeamertemplate{navigation symbols}{}
     %\setbeamertemplate{background}[grid][step=10]
     \setbeamertemplate{background}{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{img/firstslide.png}}
+    \setbeamercolor{background canvas}{bg=bgcolor}
+    \setbeamercolor{item}{fg=fgcolor}
+    \setbeamercolor{normal text}{fg=fgcolor}
+    \usebeamercolor[fg]{normal text}
     \begin{frame}[plain]
       \setstretch{1.2}
       \begin{textblock*}{\framewidth}(0.95cm,3.0cm) % {block width} (coords)
@@ -91,7 +100,7 @@
       \begin{textblock*}{\framewidth}(0.95cm,6.9cm) % {block width} (coords)
         \Orgfont
           \begin{center}
-          \href{https://vdsina.ru}{\color{blue}vdsina.ru}, евангелист
+          \href{https://vdsina.ru}{\color{linkcolor}vdsina.ru}, евангелист
           \end{center}
       \end{textblock*}
      \end{frame}
@@ -99,6 +108,14 @@
 
 
 \begin{Large}
+
+\setbeamercolor{background canvas}{bg=bgcolor}
+\setbeamercolor{item}{fg=fgcolor}
+\setbeamercolor{normal text}{fg=fgcolor}
+\setbeamercolor{author in head/foot}{fg=lightfgcolor}
+\setbeamercolor{title in head/foot}{fg=lightfgcolor}
+\setbeamercolor{frametitle}{fg=titlecolor}
+\usebeamercolor[fg]{normal text}
 
 \begin{frame}{\ \ \ Представляюсь на всякий случай}
 \setstretch{1.2}
@@ -755,9 +772,9 @@
 \setstretch{1.2}
 \begin{textblock*}{\framewidth+0.55cm}(0.5cm,1.5cm)
 \begin{itemize}
-  \item \href{mailto:alexclear@gmail.com}{\color{blue}{alexclear@gmail.com}}
-  \item \href{https://telegram.me/lhommequipleure}{\color{blue}{https://telegram.me/lhommequipleure}}
-  \item \href{https://telegram.me/demeliorator\_pod}{\color{blue}{https://telegram.me/demeliorator\_pod}}
+  \item \href{mailto:alexclear@gmail.com}{\color{linkcolor}{alexclear@gmail.com}}
+  \item \href{https://telegram.me/lhommequipleure}{\color{linkcolor}{https://telegram.me/lhommequipleure}}
+  \item \href{https://telegram.me/demeliorator\_pod}{\color{linkcolor}{https://telegram.me/demeliorator\_pod}}
 \end{itemize}
 \end{textblock*}
 \end{frame}
